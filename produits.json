@@ -1,0 +1,57 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "nom": "lipton",
+      "prix": 50,
+      "qtite": 50,
+      "desc": "Très bon pour la santé"
+    },
+    {
+      "id": 2,
+      "nom": "thé",
+      "prix": 200,
+      "qtite": 10,
+      "desc": "très bon pour la santé"
+    },
+    
+    {
+      "id": 4,
+      "nom": "thé",
+      "prix": 150,
+      "qtite": 10,
+      "desc": "café est  un produit "
+    },
+    {
+      "nom": "café",
+      "prix": 500,
+      "qtite": 15,
+      "desc": "Très bon pour la santé",
+      "id": 6
+    },
+    {
+      "nom": "nescafé",
+      "prix": 154,
+      "qtite": 123,
+      "desc": "café est  un produit ",
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

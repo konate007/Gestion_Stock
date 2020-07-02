@@ -1,0 +1,26 @@
+<h3>Update Produit</h3>
+<div [hidden]="submitted" style="width: 400px;">
+  <form #myForm="ngForm">
+    <div class="form-group">
+      <label for="name">Nom produit</label>
+      <input type="text" class="form-control" id="nom" required [(ngModel)]="p1" name="nom" #nom="ngModel">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Prix produit</label>
+      <input type="number" class="form-control" id="prix" required [(ngModel)]="p2"  name="prix" #prix="ngModel">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Quantite produit</label>
+      <input type="number" class="form-control" id="qtite" required [(ngModel)]="p3" name="qtite" #qtite="ngModel">
+    </div>
+
+    <div class="form-group">
+        <label for="name">Description</label>
+        <input type="text" class="form-control" id="desc" required [(ngModel)]="p4" name="desc"  #desc="ngModel">
+      </div>
+
+      <button type="submit" class="btn btn-success" (click)="updateProduit(myForm,produit.id)" routerLink="/liste">Update</button>
+  </form>
+</div>

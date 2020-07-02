@@ -1,0 +1,9 @@
+[
+    {
+        "id":1,
+        "nom":"cafe",
+        "prix":10000,
+        "qtite":50,
+        "desc":"mon cafe au lait"
+    }
+]
